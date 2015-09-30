@@ -1,0 +1,19 @@
+{
+    "notes":[
+        {
+            "content": "1AngularJS - HTML enhanced for web apps!",
+            "color": "warning",
+            "date": 1410788931159
+        },
+        {
+            "content": "1Meeting - create RESTful JSON services",
+            "color": "primary",
+            "date": 1410788631159
+        },
+        {
+            "content": "1Interim JSON source",
+            "color": "success",
+            "date": 1410788731159
+        }
+    ]
+}

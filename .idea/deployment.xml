@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="my.safeweb4me.com--BeAngular" createEmptyFolders="true">
+    <serverData>
+      <paths name="my.safeweb4me.com--BeAngular">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/my.safeweb4me.com/" local="$PROJECT_DIR$" web="/my.safeweb4me.com/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
+

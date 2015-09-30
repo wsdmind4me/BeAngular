@@ -1,0 +1,369 @@
+<!-- list  -->
+<ul class="nav">
+  <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+    <span translate="aside.nav.HEADER">Navigation</span>
+  </li>
+
+      <li ui-sref-active="active">
+          <a ui-sref="app.ui.portlet">
+          <i class="glyphicon glyphicon-dashboard icon text-primary-dker"></i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+
+  <!--
+  <li ui-sref-active="active">
+      <a ui-sref="app.page.search">
+          <i class="glyphicon glyphicon-search icon text-info-lter"></i>
+          <span translate="aside.nav.components.pages.SEARCH">Search</span>
+      </a>
+  </li>
+  <li>
+      <a ui-sref="app.docs">
+          <i class="glyphicon glyphicon-question-sign icon text-info-lter"></i>
+          <span translate="aside.nav.your_stuff.DOCUMENTS">Help-FAQs</span>
+      </a>
+  </li>
+   -->
+
+  <li class="line dk"></li>
+  <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+      <span translate="aside.nav.your_stuff.YOUR_STUFF">Your Stuff</span>
+  </li>
+  <li ui-sref-active="active">
+      <a ui-sref="app.table.static">
+          <i class="glyphicon glyphicon-check icon text-info-lter"></i>
+          <span>Checklists</span>
+      </a>
+  </li>
+  <li ui-sref-active="active">
+      <a ui-sref="app.calendar">
+          <i class="glyphicon glyphicon-calendar icon text-info-lter"></i>
+          <span class="font-bold" translate="aside.nav.CALENDAR">Calendar</span>
+      </a>
+  </li>
+
+  <li ui-sref-active="active">
+      <a ui-sref="app.mail.list">
+          <b class="badge bg-info pull-right">9</b>
+          <i class="glyphicon glyphicon-envelope icon text-info-lter"></i>
+          <span translate="aside.nav.EMAIL">Email</span>
+      </a>
+  </li>
+  <li ui-sref-active="active">
+      <a ui-sref="app.weather">
+          <i class="glyphicon glyphicon-tint icon text-info-lter"></i>
+          <span>Weather</span>
+      </a>
+  </li>
+  <li ui-sref-active="active">
+      <a ui-sref="app.ui.googlemap">
+          <i class="glyphicon glyphicon-road icon text-info-lter"></i>
+          <span>Google Map</span>
+      </a>
+  </li>
+  <li class="line dk"></li>
+  <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+      <span>Organizing</span>
+  </li>
+  <li>
+      <a href class="auto">
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+          <i class="glyphicon glyphicon-link icon text-info-lter"></i>
+          <span>Links</span>
+      </a>
+      <ul class="nav nav-sub dk">
+          <li class="nav-sub-header">
+              <a href>
+                  <span>Links</span>
+              </a>
+          </li>
+
+          <li ui-sref-active="active">
+              <a href="http://www.wsdmind.com" target="_blank">
+                  <i class="glyphicon glyphicon-star icon text-info-lter"></i>
+                  <span class="font-bold" translate="aside.nav.WSDMind">WSDMind</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a href="http://my.simplify4me.com/explorer/?page=gallery" target="_blank">
+                  <i class="glyphicon glyphicon-new-window icon text-info-lter"></i>
+                  <span>Explorer</span>
+              </a>
+          </li>
+
+      </ul>
+  </li>
+  <li>
+      <a href class="auto">
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+          <i class="glyphicon glyphicon-folder-open icon text-info-lter"></i>
+          <span>Files</span>
+      </a>
+      <ul class="nav nav-sub dk">
+          <li class="nav-sub-header">
+              <a href>
+                  <span>Files</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.form.fileupload">
+                  <i class="glyphicon glyphicon-cloud-upload icon text-info-lter"></i>
+                  <span>File upload</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.form.imagecrop">
+                  <i class="glyphicon glyphicon-picture icon text-info-lter"></i>
+                  <span>Photos</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a href="#/music/home">
+                  <i class="glyphicon glyphicon-music icon text-info-lter"></i>
+                  Music/Movies
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.table.grid">
+                  <i class="glyphicon glyphicon-book icon text-info-lter"></i>
+                  <span>Books</span>
+              </a>
+          </li>
+
+      </ul>
+  </li>
+  <li>
+      <a href class="auto">
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+          <i class="glyphicon glyphicon-cog icon text-info-lter"></i>
+          <span class="font-bold">Planning</span>
+      </a>
+      <ul class="nav nav-sub dk">
+          <li class="nav-sub-header">
+              <a href>
+                  <span>Planning</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.ui.widgets">
+                  <i class="glyphicon glyphicon-cutlery icon text-info-lter"></i>
+                  <span>Meals</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.table.datatable">
+                  <i class="glyphicon glyphicon-list-alt icon text-info-lter"></i>
+                  <span>Budget</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.chart">
+                  <i class="glyphicon glyphicon-stats icon text-info-lter"></i>
+                  <span>Charts</span>
+              </a>
+          </li>
+      </ul>
+  </li>
+
+  <li class="line dk"></li>
+
+  <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+      <span>Future</span>
+  </li>
+
+
+  <!--
+  <li>
+      <a ui-sref="app.page.profile">
+          <i class="glyphicon glyphicon-user icon text-success-lter"></i>
+          <b class="badge bg-success pull-right">30%</b>
+          <span translate="aside.nav.your_stuff.PROFILE">Profile</span>
+      </a>
+  </li>
+  -->
+
+  <li>
+      <a href class="auto">
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+          <i class="glyphicon glyphicon-list icon  text-info-lter"></i>
+          <span>My Wall</span>
+      </a>
+      <ul class="nav nav-sub dk">
+          <li class="nav-sub-header">
+              <a href>
+                  <span>My Wall</span>
+              </a>
+          </li>
+
+          <li ui-sref-active="active">
+              <a ui-sref="app.page.post">
+                  <i class="glyphicon glyphicon-comment icon text-info-lter"></i>
+                  <span translate="aside.nav.components.pages.POST">Post</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.ui.timeline">
+                  <i class="glyphicon glyphicon-time icon text-info-lter"></i>
+                  <span translate="aside.nav.components.ui_kits.TIMELINE">Timeline</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.form.editor">
+                  <i class="glyphicon glyphicon-edit icon text-info-lter"></i>
+                  <span>Editor</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="apps.contact">
+                  <i class="glyphicon glyphicon-phone icon text-info-lter"></i>
+                  <span>Contacts</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="apps.note">
+                  <i class="glyphicon glyphicon-pencil icon text-info-lter"></i>
+                  <span>Notes</span>
+              </a>
+          </li>
+
+      </ul>
+  </li>
+
+
+  <li>
+      <a href class="auto">
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+          <i class="glyphicon glyphicon-credit-card icon text-info-lter"></i>
+          <span>Account</span>
+      </a>
+      <ul class="nav nav-sub dk">
+          <li class="nav-sub-header">
+              <a href>
+                  <span>Account</span>
+              </a>
+          </li>
+
+          <li class="line dk hidden-folded"></li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.page.price">
+                  <i class="glyphicon glyphicon-usd icon text-info-lter"></i>
+                  <span>Price</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.page.invoice">
+                  <i class="glyphicon glyphicon-file icon text-info-lter"></i>
+                  <span translate="aside.nav.components.pages.INVOICE">Invoice</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.form.wizard">
+                  <i class="glyphicon glyphicon-hand-right icon text-info-lter"></i>
+                  <span translate="aside.nav.components.form.FORM_WIZARD">Form wizard</span>
+              </a>
+          </li>
+
+      </ul>
+  </li>
+  <!--
+  <li class="line dk"></li>
+
+  <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+      <span>Other Stuff</span>
+  </li>
+
+  <li>
+      <a href class="auto">
+      <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+          <i class="glyphicon glyphicon-tags icon text-info-lter"></i>
+          <span>Stuff</span>
+      </a>
+      <ul class="nav nav-sub dk">
+          <li class="nav-sub-header">
+              <a href>
+                  <span>Stuff</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.dashboard-v1">
+                  <i class="glyphicon glyphicon-dashboard icon text-primary-dker"></i>
+                  <span>Dashboard-v1</span>
+              </a>
+          </li>
+  <li class="line dk hidden-folded"></li>
+  <li ui-sref-active="active">
+      <a ui-sref="app.ui.icons">
+          <b class="badge bg-info pull-right">3</b>
+          <span translate="aside.nav.components.ui_kits.ICONS">Icons</span>
+      </a>
+  </li>
+          <li class="line dk"></li>
+
+          <li>
+              <a ui-sref="access.signin">
+                  <i class="glyphicon glyphicon-log-in icon text-info-lter"></i>
+                  <span translate="aside.nav.components.pages.SIGNIN">Signin</span>
+              </a>
+          </li>
+          <li>
+              <a ui-sref="access.signup">
+                  <span translate="aside.nav.components.pages.SIGNUP">Signup</span>
+              </a>
+          </li>
+
+          <li class="line dk"></li>
+
+          <li>
+              <a ui-sref="lockme">
+                  <span translate="aside.nav.components.pages.LOCK_SCREEN">Lock screen</span>
+              </a>
+          </li>
+
+          <li>
+              <a ui-sref="access.forgotpwd">
+                  <span translate="aside.nav.components.pages.FORGOT_PASSWORD">Forgot password</span>
+              </a>
+          </li>
+          <li>
+              <a ui-sref="access.404">
+                  <span translate="aside.nav.components.pages.404">404</span>
+              </a>
+          </li>
+
+          <li class="line dk"></li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.form.elements">
+                  <span translate="aside.nav.components.form.FORM_ELEMENTS">Form elements</span>
+              </a>
+          </li>
+          <li ui-sref-active="active">
+              <a ui-sref="app.form.validation">
+                  <span translate="aside.nav.components.form.FORM_VALIDATION">Form validation</span>
+              </a>
+          </li>
+
+      </ul>
+  </li>
+  <li class="line dk"></li>
+   -->
+</ul>
+<!-- / list -->
